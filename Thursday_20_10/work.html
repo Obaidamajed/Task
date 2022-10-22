@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class</title>
+    <style>
+        .Israa{
+            border-style: solid;
+            /* style of border  */
+            /* if i add border color=red it will be (border)red even if
+            used color in (.Israa, .fatima)  */
+            border-width:40px 30px 50px 30px;
+            /* top right bottom left : this is the sequence of border width  */
+            width: 400px;
+            /* width of  internal border  */
+            height: 300px;
+            /* height of internal border  */
+        }
+        .fatima {
+            border-style: solid;
+            /* style of border  */
+            border-width:40px 30px 50px 30px;
+            /* top right bottom left : this is the sequence of border width  */
+            border-color: red;
+            /* color of border  */
+            width: 400px;
+            /* width of  internal border  */
+            height: 300px;
+            /* height of internal border  */
+        }
+        .Israa, .fatima {
+            color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <p class="Israa">Lorem1</p><br>
+    <span class="fatima">Lorem2</span><br>
+    <p class="Jack">Lorem3</p><br>
+    <p class="Israa">Lorem4</p>
+    <p>Lorem5</p>
+    <p  class="fatima">Lorem6</p>
+    <p>Lorem7</p>
+    <p class="Jack">Lorem8</p>
+    <p class="Israa">Lorem9</p>
+    <p class="Jack">Lorem10</p>
+    <p  class="fatima">Lorem11</p>
+    <p>Lorem12</p>
+</body>
+</html>
