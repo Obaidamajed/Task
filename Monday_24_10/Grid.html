@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Grid.css">
+    <title>align-items</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-auto-rows: minmax(200px,auto);
+            grid-gap: 10px;
+            justify-items: center;
+            align-items:center ;
+        }
+
+        .box{
+            background: blue;
+            width: 30px;
+            height: 30px;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- لازم الديفات اللي انت بتشتغل عليها
+         بنظام القريد تكون بداخل كونتاينر
+         لأنو انت بتتحكم بالكونتاينر -->
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+        <div class="box box4">4</div>
+        <div class="box box5">5</div>
+        <div class="box box6">6</div>
+        <div class="box box7">7</div>
+        <div class="box box8">8</div>
+        <div class="box box9">9</div>
+        <div class="box box10">10</div>
+        <div class="box box11">11</div>
+        <div class="box box12">12</div>
+
+    </div>
+    
+</body>
+</html>
