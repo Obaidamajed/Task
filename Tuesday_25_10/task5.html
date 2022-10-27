@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheet4.css">
+    <title>Media Query</title>
+    <style>
+        body{background-color: peru;}
+
+.container{
+    display: grid;
+    /* justify-content: center; */
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: auto;
+    /* grid-gap: ; */
+    /* height: 5vw; */
+    /* width: 90vw; */
+    margin: 0 40px 0 50px;
+   
+    
+}
+ img{
+width: 90%;
+height: 85%;
+border: 2px solid black;
+}
+h1{color: rgb(204, 203, 203);
+    
+}
+
+
+
+@media screen and (min-width: 414px) and (max-width:896px) {
+    body {
+      background-color: rgb(53, 27, 253);
+    
+    }
+    .container{
+      margin:0 40px;
+     display: block;
+    
+    } 
+    img{
+      width: 40%;
+     height: 40%;
+     margin: 0 auto;
+    }
+  }
+    </style>
+</head>
+<body>
+    <h1>Media Query Demo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia iure quasi hic! Vitae accusamus,
+         laboriosam voluptate itaque harum magnam animi obcaecati dolore dolorum. Fugit quam perspiciatis recusandae architecto,
+         nostrum nobis voluptate suscipit tempore temporibus deleniti. In unde beatae labore est!
+         Laborum delectus impedit architecto aliquid adipisci necessitatibus nesciunt fugiat illum.</p>
+    <div class="container">
+        <div class="Box box1"> <img src="5.jpg" ></div>
+        <div class="Box box2"> <img src="cat.jpg" ></div>
+        <div class="Box box3"> <img src="download.jpg" ></div>
+        <div class="Box box4"> <img src="downloadd.jpg" ></div>
+        <div class="Box box5"> <img src="3.jpg" ></div>
+        <div class="Box box6"> <img src="chocolate.jpg" ></div>
+    </div>
+</body>
+</html>
