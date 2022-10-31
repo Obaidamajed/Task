@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="../Student_Bootstrap/css/bootstrap.css">
+    <script src="https://kit.fontawesome.com/18b0a154a3.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            font-family: 'Times New Roman', georgia, serif;
+        }
+        h1{
+            letter-spacing: 5px;
+            position: relative;
+            bottom: 260px;
+            color: white;
+        }
+        #full{
+          letter-spacing: 5px;
+            position: relative;
+            bottom: 260px;
+            left: 4%;
+            color: white;
+        }
+        #full:hover{
+          color:bisque;
+        }
+        h1:hover{
+          color: bisque;
+        }
+        #edu{
+          display: grid;
+          grid-template-columns: repeat(3,1fr);
+          justify-items: center;
+          position: relative;
+          }
+        #exp{
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+        }
+        #p{
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+          justify-items: center;
+        }
+        a:hover{
+          color: green;
+        }
+      #img{
+       position: absolute;
+       left: 0%;
+       opacity: 0.5;
+      }
+      #img2{
+        position: absolute;
+       right: 0%;
+       opacity: 0.5;
+      }
+      #comp{
+        position: absolute;
+       left: 0%;
+       opacity: 0.5;
+      }
+      #pro{
+        position: relative;
+      }
+      #y{
+        position: absolute;
+       left: 0%;
+       opacity: 0.5;
+      }
+      #exp{
+        position: relative;
+      }
+      #z{
+        position: absolute;
+       right: 0%;
+       opacity: 0.5;
+      }
+      #w{
+        position: absolute;
+        right: 0%;
+       opacity: 0.5;
+      }
+      #obj{
+        position: relative;
+      }
+    </style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+    <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+      <a href="#home" class="w3-bar-item w3-button">Home</a>
+      <!-- Right-sided navbar links. Hide them on small screens -->
+      <div class="w3-right w3-hide-small">
+        <a href="#obj" class="w3-bar-item w3-button">Objective</a>
+        <a href="#edu" class="w3-bar-item w3-button">Education</a>
+        <a href="#pro" class="w3-bar-item w3-button">Project</a>
+        <a href="#exp" class="w3-bar-item w3-button">Experience</a>
+      </div>
+    </div>
+  </div>
+
+    <!-- Header -->
+    <header id="home" style="width:100%;">
+        <img width="100%" height="auto" src="ob.jpg" alt="Obaida">
+        <div> <h1 style="font-size: 36px;"><strong>Obaida Al-thunibat</strong></h1>
+          <h2 id="full"><strong>Full Stack Developer</strong></h2>
+        </div>
+      </header>
+
+      <!-- Page content -->
+      <div  style="width: 80%; margin: 0 auto;">
+         <!-- Objective Section -->
+        <div id="obj">
+          <img id="w" width="100%" height="100%" src="pasted.png" alt="object">
+        <p style="text-align:center;"><h2 style="text-align:center">Objective</h2><br> Detail-oriented individual with knowledge across a broad range of programming languages including HTML, Css, Java, Php, laravel, etc.
+             Looking for a Programmer position to utilize outstanding programming skills to provide solutions to the organization’s business problems.
+              Individual with well-honed skills in computer science and technical expertise in the support of specialized
+              programming projects using web based and client server tools. Interested in the job of a Software Developer. Coming with strong ability to design, develop, and maintain software applications.
+        </p>
+        </div>
+        <hr>
+         <!-- Education Section -->
+        
+          <div id="edu">
+  <img id="img" width="50%" height="100%" src="b.jpg" alt="education">
+  <img id="img2" width="50%" height="100%" src="c.jpg" alt="High School">
+<ul style="list-style:square;margin-top: 30%;" id="just">
+  <li style="font-size: 20px; list-style: none; color: grey;"><b>Trainee</b></li>
+  <li>Full Stack Development</li>
+  <li>2/10/2022 - Present</li>
+  <li>Jordan - Aqaba</li>
+</ul>
+  <ul  style="list-style:square">
+    <li style="list-style-type: none; margin:0 0 19% 0;font-size: 26px;"><b>Education</b></li>
+    <li style="font-size: 20px; list-style: none; color: grey;"><b>Universty</b></li>
+    <li>Electrical power and control engineer</li>
+    <li>GPA {80.37}</li>
+    <li>9/2015 - 1/2020</li>
+    <li>Jordan - Karak</li>
+  </ul>
+    <ul  style="list-style:square;margin-top: 30%;">
+      <li style="font-size: 20px; list-style: none; color: grey;"><b>High School</b></li>
+      <li>Wasfi Al-tall</li>
+      <li>GPA {88}</li>
+      <li>2015</li>
+      <li>Jordan - Aqaba</li>
+    </ul>
+            </div>
+            <hr>
+               <!-- Project Section -->
+               
+               <div id="pro">
+                <img id="comp" width="100%" height="100%" src="compute.jpg" alt="programing">
+                <ul style="list-style-type:circle;text-align: center;">
+                  <li style="list-style-type:none;font-size:26px;margin-bottom:5%;"><b>Project</b></li>
+                  <li><a href="https://obaidamajed.github.io/Projects/" style="text-decoration:none;" id="ho">Wirefram&Mockup(Aqaba Doctors)</a> </li>
+                  <li><a href="https://obaidamajed.github.io/Projects/" style="text-decoration:none;" id="ho">Portfolio</a> </li>
+                  <li>LOrem Ipsum</li>
+                  <li>LOrem Ipsum</li>
+                  <li>LOrem Ipsum</li>
+                  <li>LOrem Ipsum</li>
+                  <li>LOrem Ipsum</li>
+                  <li>LOrem Ipsum</li>
+                  <li>LOrem Ipsum</li>
+                  <li>LOrem Ipsum</li>
+                  <li style="list-style:none"> </li>
+                </ul>
+               </div>
+               <hr>
+                <!-- Experience Section -->
+                
+                <div id="exp">
+                  <h2 style="margin-left: 80%;"> Experience</h2><br>
+                  <img id="y" width="50%" height="100%" src="comp.jpg" alt="programing">
+                  <img id="z" width="50%" height="100%" src="elec.jpg" alt="EDCO">
+                    <ul style="list-style-type:none">
+                      <li style="text-align:center;font-size: 20px;"><b>Trainee</b></li> 
+                      <li style="text-align:center;font-size: 20px; "><b>Full stack Development at orange coding academy</b> </li>
+                      <li style="text-align:center;font-size: 20px; "><b>2/10/2022 - Present</b> </li>
+                      <li style="text-align:center;font-size: 20px; "><b>Jordan - Aqaba</b> </li>
+                    </ul>
+                  <ul style="list-style-type:none">
+                    <li style="text-align:center;font-size: 20px;"><b>Trainee</b></li>
+                    <li style="text-align:center;font-size: 20px;"><b>Electrical engineer</b> </li>
+                    <li style="text-align:center;font-size: 20px;"><b>6/2019 - 8/2019</b> </li>
+                    <li style="text-align:center;font-size: 20px;"><b> Electricity Distribution Company (EDCO)</b></li>
+                  </ul>
+                </div>
+
+                <!-- End page content -->
+      </div>
+                <!-- Footer -->
+          <footer style="background-color:#f1f1f1; padding:32px 0;">
+
+            <div id="p">
+            <p> &puncsp; <i class="fa-solid fa-envelope"></i> Obaidaalthunibat@gmail.com</p>
+            <p> &puncsp; <i class="fa-brands fa-github"></i> <a href="https://github.com/obaidamajed"> https://github.com/obaidamajed</a></p>
+            <p> &puncsp; <i class="fa-solid fa-phone"></i> 0781841055</p>
+            <p> &puncsp; <i class="fa-brands fa-github"></i> <a href=" https://obaidamajed.github.io/Task/"> https://obaidamajed.github.io/Task/</a></p>
+            <p> &puncsp; <i class="fa-solid fa-location-dot"></i> <a href="">Jordan - Aqaba</a></p>
+            <p> &puncsp; <i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/obaida-al-thunibat-a76975214/">Linkedin</a></p>
+            </div>
+          </footer>
+</body>
+</html>
